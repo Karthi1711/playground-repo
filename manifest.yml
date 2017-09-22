@@ -1,7 +1,7 @@
 ---
 applications:
 - name: CustomerService
-  instance: 1
+  instance: 2
   host: FirstCustomer
   path: build\libs\CustomerService-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
