@@ -1,6 +1,6 @@
-package com.example.Customer.Customer.Repository;
+package com.example.customer.Customer.Repository;
 
-import com.example.Customer.Customer.domain.CustomerDomain;
+import com.example.customer.Customer.domain.CustomerDomain;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

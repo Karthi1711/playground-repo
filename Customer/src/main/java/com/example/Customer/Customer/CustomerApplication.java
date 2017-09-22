@@ -1,6 +1,6 @@
-package com.example.Customer.Customer;
+package com.example.customer.Customer;
 
-import com.example.Customer.Customer.service.MessageReceiver;
+import com.example.customer.Customer.service.MessageReceiver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

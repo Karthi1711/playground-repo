@@ -1,8 +1,8 @@
-package com.example.Customer.Customer.service;
+package com.example.customer.Customer.service;
 
 
-import com.example.Customer.Customer.Repository.CustomerRepository;
-import com.example.Customer.Customer.domain.CustomerDomain;
+import com.example.customer.Customer.Repository.CustomerRepository;
+import com.example.customer.Customer.domain.CustomerDomain;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

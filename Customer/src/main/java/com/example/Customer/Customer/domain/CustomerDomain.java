@@ -1,6 +1,6 @@
-package com.example.Customer.Customer.domain;
+package com.example.customer.Customer.domain;
 
-public class CustomerDomain {
+public class CustomerDomain  {
     private String id;
     private String name;
 

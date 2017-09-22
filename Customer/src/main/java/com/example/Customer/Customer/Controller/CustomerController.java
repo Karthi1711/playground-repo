@@ -1,7 +1,7 @@
-package com.example.Customer.Customer.Controller;
+package com.example.customer.Customer.Controller;
 
 
-import com.example.Customer.Customer.domain.CustomerDomain;
+import com.example.customer.Customer.domain.CustomerDomain;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
