@@ -5,6 +5,7 @@ applications:
   host: FirstCustomer
   path: build\libs\CustomerService-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1024M
   services:
     - test-eureka
     - test-rabbit
