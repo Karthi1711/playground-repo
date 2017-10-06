@@ -1,9 +1,9 @@
 ---
 applications:
-- name: customer-service
+- name: play-customer-service
   instance: 1
   memory: 1024M
-  host: customer-service
+  host: play-customerservice
   path: build\libs\customer-service-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   memory: 1024M
