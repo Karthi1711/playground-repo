@@ -26,8 +26,8 @@ oms:
 logging:
   level:
     root: DEBUG
-      org.springframework.web: ERROR
-      com.oms.inventory: DEBUG
+    org.springframework.web: ERROR
+    com.oms.inventory: DEBUG
 
 server:
     port: 9099
