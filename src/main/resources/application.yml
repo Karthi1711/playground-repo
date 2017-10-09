@@ -3,16 +3,16 @@ info:
 spring:
   application:
     name: play-inventory-service
-  data:
-    mongodb:
-        uri: mongodb://localhost:27017/OMS
-        database: OMS
+#  data:
+#    mongodb:
+#        uri: mongodb://localhost:27017/OMS
+#        database: OMS
 security:
     basic:
       enabled: false
 
 oms:
-  appKey: inventory-service
+  appKey: play-inventory-service
   common:
     web:
       config:
