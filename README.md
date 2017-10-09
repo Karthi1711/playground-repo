@@ -1,1 +1,1 @@
-# CustomerService
+# InventoryService
