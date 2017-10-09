@@ -1,33 +1,35 @@
 info:
-  description: "Service for Customer CRUD operations"
-
+    description: "Inventory Management Service"
 spring:
   application:
-    name: play-customer-service
-#  data:
-#    mongodb:
-#      uri: mongodb://localhost:27017/OMS
-
+    name: play-inventory-service
+  data:
+    mongodb:
+        uri: mongodb://localhost:27017/OMS
+        database: OMS
+security:
+    basic:
+      enabled: false
 
 oms:
-  appKey: customer-service
+  appKey: inventory-service
   common:
     web:
       config:
         swagger:
-          controllerPackage: com.oms.customer.controller
-          author: Panneerselvam
-          apiName: Customer-service
+          controllerPackage: com.oms.inventory.controller
+          author: AK
+          apiName: Play-Inventory-Service
           apiVersion: 1.0.0
-          apiDescription: API for Customer-service
+          apiDescription: API for Inventory-service
 
-security:
-  basic:
-    enabled: false
 logging:
-  level:
-    root: DEBUG
-    org.springframework.web: ERROR
-    com.oms.customer: DEBUG
+  level:
+    root: DEBUG
+      org.springframework.web: ERROR
+      com.oms.inventory: DEBUG
+
 server:
-  port: 9091
+    port: 9099
+
+
