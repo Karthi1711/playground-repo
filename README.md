@@ -1,1 +1,1 @@
-# InventoryService
+# ProductService

@@ -1,35 +1,33 @@
 info:
-    description: "Inventory Management Service"
+  description: "Service for Product CRUD operations"
+
 spring:
   application:
-    name: play-inventory-service
-#  data:
-#    mongodb:
-#        uri: mongodb://localhost:27017/OMS
-#        database: OMS
-security:
-    basic:
-      enabled: false
+    name: product-service
+#data:
+  #mongodb:
+    #uri: mongodb://localhost:27017/OMS
+
 
 oms:
-  appKey: play-inventory-service
+  appKey: product-service
   common:
     web:
       config:
         swagger:
-          controllerPackage: com.oms.inventory.controller
-          author: AK
-          apiName: Play-Inventory-Service
+          controllerPackage: com.oms.product.controller
+          author: Michael Philomin Raj
+          apiName: Product-service
           apiVersion: 1.0.0
-          apiDescription: API for Inventory-service
+          apiDescription: API for Pustomer-service
 
+security:
+  basic:
+    enabled: false
 logging:
   level:
     root: DEBUG
     org.springframework.web: ERROR
-    com.oms.inventory: DEBUG
-
+    com.oms.product: DEBUG
 server:
-    port: 9099
-
-
+  port: 9092
